@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".select_place"></activity>
+        <activity android:name=".make_order_1" />
+        <activity android:name=".make_order" />
+        <activity android:name=".create_restaurant_form" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
