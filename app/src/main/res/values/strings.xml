@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="propietario">propietario</string>
+    <string name="iniciar_sesion">iniciar sesion</string>
+    <string name="hacer_pedido_ya">Hacer Pedido Ya</string>
+    <string name="todo_1">TODO</string>
+</resources>
