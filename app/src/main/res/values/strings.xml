@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <string name="iniciar_sesion">INICIAR SESION</string>
     <string name="correo_electronico">CORREO ELECTRONICO</string>
     <string name="contrase_a">CONTRASEÑA</string>
     <string name="acceder">Acceder</string>
+=======
+    <string name="propietario">propietario</string>
+    <string name="iniciar_sesion">iniciar sesion</string>
+    <string name="hacer_pedido_ya">Hacer Pedido Ya</string>
+    <string name="todo_1">TODO</string>
+>>>>>>> 462b36505b33adbf64a6be5da7de47874a23e15b
 </resources>

@@ -19,7 +19,7 @@ private Activity Root = this;
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Root,Hacer_Pedidos.class);
+                Intent intent = new Intent(Root,create_restaurant_form.class);
                 this.startActivity(intent);
             }
 
