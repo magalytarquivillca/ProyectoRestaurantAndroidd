@@ -32,7 +32,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="56dp"
         android:fontFamily="sans-serif-medium"
-        android:text="INICIAR SESION"
+        android:text="@string/iniciar_sesion"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
@@ -48,15 +48,16 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/modelo"
-        android:drawableRight="@drawable/ic_baseline_mail_24"
+        android:drawableEnd="@drawable/ic_baseline_mail_24"
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="16dp"
-        android:text="CORREO ELECTRONICO"
+        android:text="@string/correo_electronico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2" />
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -66,15 +67,16 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/modelo"
-        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:drawableEnd="@drawable/ic_baseline_lock_24"
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="16dp"
-        android:text="CONTRASEÑA"
+        android:text="@string/contrase_a"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btn_acceder"
@@ -83,7 +85,7 @@
         android:layout_marginTop="56dp"
         android:background="@color/colorPrimaryDark"
         android:fontFamily="@font/sarpanch_black"
-        android:text="Acceder"
+        android:text="@string/acceder"
         android:textColor="#FDF9F9"
         android:textSize="18sp"
         android:textStyle="bold"

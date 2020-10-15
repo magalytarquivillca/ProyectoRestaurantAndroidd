@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".create_restaurant_form">
+
     <TextView
         android:id="@+id/titulo"
-        android:layout_width="155dp"
-        android:layout_height="36dp"
-        android:text="@string/crear_restaurante"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:text="crear_restaurante"
         android:textSize="18sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="51dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="51dp" />
 
     <EditText
         android:id="@+id/nombre_texto"
@@ -68,11 +69,11 @@
         android:id="@+id/lugares"
         android:layout_width="155dp"
         android:layout_height="36dp"
-        android:text="@string/lugar"
+        android:text="@stringlugar"
         android:textSize="32sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="320dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="320dp" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/select_place"
