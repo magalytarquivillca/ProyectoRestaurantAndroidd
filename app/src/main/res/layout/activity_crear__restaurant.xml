@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crear_Restaurant">
+
+  <ScrollView
+      android:id="@+id/scrollView2"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/TextRest"
+          android:layout_width="match_parent"
+          android:layout_height="46dp"
+          android:background="@color/colorPrimaryDark"
+          android:paddingTop="10dp"
+          android:text="CREAR RESTAURANT"
+          android:textAlignment="center"
+          android:textColor="@color/colorPrimary"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/textNomb"
+          android:layout_width="407dp"
+          android:layout_height="50dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Nombre:"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/TextNit"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Nit:"
+          android:textSize="20sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/TextProp"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Propietario:"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/TextCall"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Calle:"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/Textelef"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Telefono:"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/TextLong"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Longitud:"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/TextLat"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Latitud:"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textLugar"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="LUGAR"
+          android:textAlignment="textStart"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+
+      <com.google.android.gms.maps.MapView
+          android:id="@+id/mapView"
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:layout_margin="20dp" />
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="80dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="80dp"
+          android:layout_marginBottom="45dp"
+          android:paddingTop="20dp"
+          android:text="@string/button"
+          android:textAlignment="center"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/linearLayout"
+          app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
