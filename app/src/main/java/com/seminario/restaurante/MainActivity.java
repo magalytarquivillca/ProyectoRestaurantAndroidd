@@ -34,24 +34,31 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadComponents() {
         loginButton = this.findViewById(R.id.accederbut);
-        loginButton.setOnClickListener(new View.OnClickListener() {
+       /* loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(root,inicio_login.class);
                 root.startActivity(intent);
             }
-        });
+        });*/
         loginButton.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                EditText email = root.findViewById(R.id.editTextTextPersonName);
+                EditText password = root.findViewById(R.id.editTextTextPersonName2);
+
+                /*if (email.toString().length() == 0) {
+                    Toast.makeText(root, "correo obligatorio", Toast.LENGTH_SHORT).show();
+                }
+                if (password.toString().length() == 0) {
+                    Toast.makeText(root, "contaseña obligatorio ", Toast.LENGTH_SHORT).show();
+                }
+                if (email.length() != 0 && password.length() != 0){*/
 
                 //ENVIO A LA API
                 AsyncHttpClient client = new AsyncHttpClient();
                // AsyncHttpClient client1 = new AsyncHttpClient();
                 RequestParams params = new RequestParams();
-
-                EditText email = root.findViewById(R.id.editTextTextPersonName);
-                EditText password = root.findViewById(R.id.editTextTextPersonName2);
 
 
                 params.add("nombre", email.getText().toString());
@@ -84,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }));
+
     }
 
     @Override
