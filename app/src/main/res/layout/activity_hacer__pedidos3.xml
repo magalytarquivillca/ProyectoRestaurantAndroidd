@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorSecond"
     tools:context=".hacer_Pedidos3">
 
     <EditText
@@ -13,6 +14,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toStartOf="@+id/precioxcant1"
@@ -25,6 +27,7 @@
         android:layout_height="34dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
         android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/cant1"
         app:layout_constraintTop_toBottomOf="@+id/desc_y_precio1" />
@@ -104,18 +107,6 @@
         app:layout_constraintTop_toBottomOf="@+id/preciototal" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
-        android:text="PEDIDOS"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/preciototal"
         android:layout_width="119dp"
         android:layout_height="24dp"
@@ -131,10 +122,12 @@
         android:layout_width="192dp"
         android:layout_height="32dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
         android:text="TextView"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/view8" />
 
     <EditText
         android:id="@+id/cant2"
@@ -148,5 +141,25 @@
         app:layout_constraintEnd_toStartOf="@+id/precioxcant2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/desc_y_precio2" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="409dp"
+        android:layout_height="74dp"
+        android:background="@color/colorSecond2"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="105dp"
+        android:layout_height="21dp"
+        android:text="PEDIDOS"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
