@@ -6,11 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".hacer_Pedidos2">
 
+    <View
+        android:id="@+id/view15"
+        android:layout_width="404dp"
+        android:layout_height="62dp"
+        android:background="@color/colorSecond2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hacer_pedido2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="HACER PEDIDOS"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/operacion"
         android:layout_width="157dp"
         android:layout_height="27dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="64dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,20 +54,22 @@
         android:layout_width="211dp"
         android:layout_height="29dp"
         android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintTop_toBottomOf="@+id/view15" />
 
     <EditText
         android:id="@+id/num_cantidad"
         android:layout_width="65dp"
         android:layout_height="41dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="256dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintStart_toEndOf="@+id/seekBar"
         app:layout_constraintTop_toTopOf="parent" />
 

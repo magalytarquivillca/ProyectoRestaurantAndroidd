@@ -54,23 +54,23 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
 
     <Button
-        android:id="@+id/buttagregar"
+        android:id="@+id/insertar"
         android:layout_width="140dp"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorSecond3"
-        android:text="Agregar"
+        android:text="INSERTAR"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/butttomarfoto"
+        app:layout_constraintEnd_toStartOf="@+id/tomarfoto"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
 
     <Button
-        android:id="@+id/butttomarfoto"
+        android:id="@+id/tomarfoto"
         android:layout_width="121dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"

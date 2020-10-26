@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Ordenes">
 
+    <View
+        android:id="@+id/view14"
+        android:layout_width="404dp"
+        android:layout_height="62dp"
+        android:background="@color/colorSecond2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
@@ -48,18 +58,18 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/food"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pxc2" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/food"
         android:layout_width="84dp"
         android:layout_height="71dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/boof"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
@@ -69,7 +79,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/food"
         app:layout_constraintTop_toBottomOf="@+id/des_prec2" />
 
     <TextView
@@ -101,7 +111,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/boof"
         app:layout_constraintTop_toBottomOf="@+id/des_prec1" />
 
     <TextView
@@ -228,9 +238,10 @@
         android:id="@+id/ordenes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
         android:text="ORDENES"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -329,7 +340,7 @@
         app:layout_constraintTop_toBottomOf="@+id/des_prec1" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/boof"
         android:layout_width="84dp"
         android:layout_height="71dp"
         android:layout_marginTop="300dp"

@@ -67,10 +67,15 @@
 
     <View
         android:id="@+id/view6"
-        android:layout_width="411dp"
-        android:layout_height="59dp"
+        android:layout_width="405dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="336dp"
         android:background="@color/colorSecond2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="672dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonresta"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

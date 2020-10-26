@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".hacer_Pedidos">
 
+    <View
+        android:id="@+id/view13"
+        android:layout_width="449dp"
+        android:layout_height="65dp"
+        android:background="@color/colorSecond2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="88dp"
@@ -133,9 +142,10 @@
         android:id="@+id/hacer_pedido1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
         android:text="HACER PEDIDOS"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
