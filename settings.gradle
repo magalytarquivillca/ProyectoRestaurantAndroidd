@@ -1,2 +1,6 @@
 include ':app'
+<<<<<<< HEAD
 rootProject.name = "ProyectoRestaurantAndroid"
+=======
+rootProject.name = "RESTAURANTE"
+>>>>>>> 283b6e08e7ac0464dc42738cd7e6020f9cbc2d65

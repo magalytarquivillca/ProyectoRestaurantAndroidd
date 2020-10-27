@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 283b6e08e7ac0464dc42738cd7e6020f9cbc2d65
 apply plugin: 'com.android.application'
 
 android {
@@ -6,7 +9,11 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.seminario.proyectorestaurantandroid"
+=======
+        applicationId "com.seminario.restaurante"
+>>>>>>> 283b6e08e7ac0464dc42738cd7e6020f9cbc2d65
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -26,6 +33,7 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
+<<<<<<< HEAD
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
 //<<<<<<< HEAD
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
@@ -34,10 +42,22 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 //>>>>>>> ae717c81129306cbee81078ab564388073683a3a
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+=======
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+>>>>>>> 283b6e08e7ac0464dc42738cd7e6020f9cbc2d65
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+<<<<<<< HEAD
     implementation /*compile*/ 'com.loopj.android:android-async-http:1.4.9'
 
 }
+=======
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    implementation ("com.github.bumptech.glide:glide:4.11.0"){
+        exclude group:"com.android.support"
+    }
+
+}
+>>>>>>> 283b6e08e7ac0464dc42738cd7e6020f9cbc2d65

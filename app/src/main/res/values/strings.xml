@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <
@@ -18,4 +19,8 @@
     <string name="todo_1">TODO</string>
     <string name="button">Button</string>
     >>>>>>> 462b36505b33adbf64a6be5da7de47874a23e15b
+=======
+<resources>
+    <string name="app_name">RESTAURANTE</string>
+>>>>>>> 283b6e08e7ac0464dc42738cd7e6020f9cbc2d65
 </resources>
